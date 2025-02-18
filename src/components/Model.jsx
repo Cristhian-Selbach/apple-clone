@@ -1,6 +1,6 @@
 import gsap from "gsap";
 import * as THREE from "three";
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Canvas } from "@react-three/fiber";
 import { View } from "@react-three/drei";
 import { useGSAP } from "@gsap/react";
@@ -26,6 +26,13 @@ const Model = () => {
   const [smallRotation, setSmallRotation] = useState(0);
   const [largeRotation, setLargeRotation] = useState(0);
 
+  const tl = gsap.timeline();
+
+  useEffect(() => {
+    if (size === "large") {
+    }
+  }, [size]);
+
   useGSAP(() => {
     gsap.to("#heading", {
       opacity: 1,
@@ -33,6 +40,15 @@ const Model = () => {
       scrollTrigger: {
         trigger: "#heading",
         start: "bottom bottom",
+        toggleActions: "play none none reverse",
+      },
+    });
+    gsap.to("#controls", {
+      opacity: 1,
+      y: 0,
+      scrollTrigger: {
+        trigger: "#controls",
+        start: "top bottom",
         toggleActions: "play none none reverse",
       },
     });
@@ -82,7 +98,10 @@ const Model = () => {
             </Canvas>
           </div>
 
-          <div className="mx-auto w-full">
+          <div
+            id="controls"
+            className="mx-auto w-full opacity-0 translate-y-20"
+          >
             <p className="text-sm font-light text-center mb-5">{model.title}</p>
             <div className="flex-center">
               <ul className="color-container">
