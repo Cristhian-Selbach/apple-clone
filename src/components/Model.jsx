@@ -61,7 +61,7 @@ const Model = () => {
       y: 0,
       scrollTrigger: {
         trigger: "#controls",
-        start: "bottom 105%",
+        start: "top 100%",
         toggleActions: "play none none reverse",
       },
     });
@@ -114,7 +114,7 @@ const Model = () => {
 
           <div
             id="controls"
-            className="mx-auto w-full opacity-0 translate-y-20"
+            className="mx-auto w-full opacity-0 translate-y-50"
           >
             <p className="text-sm font-light text-center mb-5">{model.title}</p>
 
