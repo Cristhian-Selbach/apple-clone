@@ -61,7 +61,7 @@ const Model = () => {
       y: 0,
       scrollTrigger: {
         trigger: "#controls",
-        start: "bottom bottom",
+        start: "bottom 105%",
         toggleActions: "play none none reverse",
       },
     });
@@ -112,7 +112,10 @@ const Model = () => {
             </Canvas>
           </div>
 
-          <div id="controls" className="mx-auto w-full opacity-0">
+          <div
+            id="controls"
+            className="mx-auto w-full opacity-0 translate-y-20"
+          >
             <p className="text-sm font-light text-center mb-5">{model.title}</p>
 
             <div className="flex-center">
