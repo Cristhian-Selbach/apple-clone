@@ -8,6 +8,7 @@ import { useGSAP } from "@gsap/react";
 import ModelView from "./ModelView";
 import { yellowImg } from "../utils";
 import { models, sizes } from "../constants";
+import { animateWithGsapTimeLine } from "../utils/animations";
 
 const Model = () => {
   const [size, setSize] = useState("small");
@@ -30,6 +31,16 @@ const Model = () => {
 
   useEffect(() => {
     if (size === "large") {
+      animateWithGsapTimeLine(tl, small, largeRotation, "#view1", "#view2", {
+        transform: "translate(-100%)",
+        duration: 2,
+      });
+    }
+    if (size === "small") {
+      animateWithGsapTimeLine(tl, large, smallRotation, "#view2", "#view1", {
+        transform: "translate(0)",
+        duration: 2,
+      });
     }
   }, [size]);
 
