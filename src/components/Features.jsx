@@ -1,10 +1,13 @@
 import gsap from "gsap";
-import { useGSAP } from "@gsap/react";
 import { useRef } from "react";
+import { useGSAP } from "@gsap/react";
+import { ScrollTrigger } from "gsap/all";
+
 import { animateWithGsap } from "../utils/animations";
 import { exploreVideo, explore1Img, explore2Img } from "../utils";
-import { ScrollTrigger } from "gsap/all";
+
 gsap.registerPlugin(ScrollTrigger);
+
 const Features = () => {
   const videoRef = useRef();
   useGSAP(() => {
