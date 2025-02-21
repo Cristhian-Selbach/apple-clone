@@ -7,15 +7,6 @@ import * as Sentry from "@sentry/react";
 
 const App = () => {
   return (
-    <button
-      onClick={() => {
-        notExists();
-      }}
-    >
-      Break the world
-    </button>
-  );
-  return (
     <>
       <main className="bg-black">
         <Navbar></Navbar>

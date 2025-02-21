@@ -61,7 +61,7 @@ const Model = () => {
       y: 0,
       scrollTrigger: {
         trigger: "#controls",
-        start: "top 100%",
+        start: "top 110%",
         toggleActions: "play none none reverse",
       },
     });
