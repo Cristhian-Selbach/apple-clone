@@ -1,60 +1,36 @@
 https://github.com/user-attachments/assets/815f6994-5e3f-4343-bf1a-4547c325cdb3
 
-🍏 Apple iPhone 15 Landing Page Clone
+# 🍏 Apple iPhone 15 Landing Page Clone
 
-Este projeto é um clone da landing page oficial do iPhone 15, recriado com fidelidade utilizando React, GSAP, Three.js e Sentry.
+Este projeto é um clone da landing page oficial do iPhone 15, recriado com fidelidade utilizando **React**, **GSAP**, **Three.js** e **Sentry**.
 
-🚀 Tecnologias Utilizadas
+## 🚀 Tecnologias Utilizadas
+- **React** - Estruturação e gerenciamento de componentes.
+- **GSAP** - Animações fluidas e dinâmicas.
+- **Three.js** - Renderização de gráficos 3D para efeitos visuais.
+- **Sentry** - Monitoramento de erros e performance.
 
-React - Estruturação e gerenciamento de componentes.
+## 🎯 Funcionalidades
+✅ Design responsivo e fiel ao original.<br>
+✅ Animações suaves e interativas com GSAP.<br>
+✅ Modelos e efeitos 3D com Three.js.<br>
+✅ Monitoramento de erros integrado via Sentry.<br>
 
-GSAP - Animações fluidas e dinâmicas.
-
-Three.js - Renderização de gráficos 3D para efeitos visuais.
-
-Sentry - Monitoramento de erros e performance.
-
-📸 Capturas de Tela
-
-(Adicione aqui algumas imagens do projeto em funcionamento)
-
-🎯 Funcionalidades
-
-✅ Design responsivo e fiel ao original.
-✅ Animações suaves e interativas com GSAP.
-✅ Modelos e efeitos 3D  com Three.js.
-✅ Monitoramento de erros integrado via Sentry.
-
-🛠️ Como Executar o Projeto
-
-Clone este repositório:
-
-git clone https://github.com/Cristhian-Selbach/apple-clone.git
-cd apple-clone.git
-
-Instale as dependências:
-
-npm install
-
-Inicie o servidor de desenvolvimento:
-
-npm run dev
-
-Acesse no navegador: http://localhost:5173
-
-🛠️ Configuração do Sentry (Opcional)
-
-Para habilitar o monitoramento de erros, configure o Sentry adicionando sua DSN Key ao arquivo .env:
-
-REACT_APP_SENTRY_DSN=YOUR_SENTRY_DSN_KEY
-
-
-🤝 Contribuição
-
+## 🛠️ Como Executar o Projeto
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/apple-iphone15-clone.git
+   cd apple-iphone15-clone```
+2. Instale as dependências:
+   ```bash
+   npm install```
+3. Inicie o servidor de desenvolvimento:
+   ```bash
+   npm run dev```
+4. Acesse no navegador: http://localhost:5173
+   
+## 🤝 Contribuição
 Sinta-se à vontade para abrir issues e enviar pull requests! Todas as contribuições são bem-vindas. 🙌
 
-📄 Licença
-
-Este projeto é apenas para fins educacionais e não possui vínculo com a Apple.
-
-Feito com por Cristhian Selbach
+## 📄 Licença
+Este projeto é apenas para fins de aprendizagem.
