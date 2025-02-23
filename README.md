@@ -19,14 +19,14 @@ Este projeto é um clone da landing page oficial do iPhone 15, recriado com fide
 ## 🛠️ Como Executar o Projeto
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/seu-usuario/apple-iphone15-clone.git
-   cd apple-iphone15-clone```
+   git clone https://github.com/seu-usuario/apple-clone.git
+   cd apple-clone
 2. Instale as dependências:
    ```bash
-   npm install```
+   npm install
 3. Inicie o servidor de desenvolvimento:
    ```bash
-   npm run dev```
+   npm run dev
 4. Acesse no navegador: http://localhost:5173
    
 ## 🤝 Contribuição
